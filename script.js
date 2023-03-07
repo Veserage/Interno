@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    var controller = new ScrollMagic.Controller();
+    var controller = new ScrollMagic.Controller({loglevel: 3});
 
     //Hide and show the header
     var headerHide = new ScrollMagic.Scene({
