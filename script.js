@@ -1,5 +1,4 @@
 $(document).ready(function () {
-    alert("HUI")
     var controller = new ScrollMagic.Controller();
 
     //Hide and show the header
